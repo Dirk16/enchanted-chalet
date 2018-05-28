@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Photos</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="enchalet.js"></script>
+</head>
+
+<body>
+	
+	<div class="wrapper">
+		
+		<header>
+			<div class="dropdown">
+  				<button onclick="mobileDropdownFunction()" class="dropbtn"></button>
+  				<div id="Dropdown" class="dropdown-content">
+    				<a href="index.html">Home</a>
+    				<a href="banner.html">Banner</a>
+    				<a href="photos.html">Photos</a>
+    				<a href="contact.html">Contact</a>
+  				</div>
+			</div>
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="banner.html">Banner</a></li>
+				<li><a href="#">Photos</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		
+		<div class="content">
+			<!--  I am using the name attribute within the <img> tags to reference these elements in enchalet.js (Photos / Slideshow) -->
+			<!--  The src attribute is missing because the URLs for the images are specified in enchalet.js (Photos / Slideshow) -->
+			<img class="desktop_mobile" name="slide" alt="slides of sunrise, indoor fireplace and balcony view of ocean">
+			<img class="tablet" name="slide_tablet" alt="slides of sunrise, indoor fireplace and balcony view of ocean">
+			
+			<div class="img"></div>
+			
+			<section class="photos_mobile">
+				<h2>Retreats</h2>
+				<ul>
+					<li>March 17-18, 2018<br><strong>Achieving your Ideal Body</strong></li>
+					<li>March 24-25, 2018<br><strong>Special Needs and Spirituality</strong></li>
+					<li>April 7, 2018<br><strong>Learn to be the CEO of your own Body</strong></li>
+				</ul>
+			</section>
+		</div>
+	
+	</div>
+	
+</body>
+
+</html>

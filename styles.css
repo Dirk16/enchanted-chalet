@@ -1,0 +1,401 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+/*	outline: 1px dotted red;*/
+}
+
+
+/* Desktop View */
+
+.wrapper {
+	width: 1024px;
+	height: 768px;
+	margin: 0 auto;
+	background-image: url(images/desktop_view.jpg);
+	background-repeat: no-repeat;
+}
+
+header {
+	display: none;
+}
+
+nav {
+	display: inline-block;
+	position: relative;
+	top: 107px;
+	height: 661px;
+	width: 144px;
+}
+
+nav ul {
+	text-align: center;
+	padding-top: 58px;
+}
+
+nav ul li {
+	list-style-type: none;
+	margin-bottom: 98px;
+}
+
+nav ul li:nth-of-type(3), nav ul li:last-child {
+	margin-top: 108px;
+
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #f0ece1;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: x-large;
+}
+
+li a:visited {
+	color: #fdd2b1;
+}
+
+li a:hover {
+	background-color: #660000;
+	border-radius: 50%;
+	padding: 5px;
+	opacity: 0.8;
+	box-shadow: 0 2px 1px #fdd2b1;
+}
+
+.dropdown {
+	display: none;
+}
+
+.content {
+	float: right;
+	position: relative;
+	top: 107px;
+	height: 661px;
+	width: 880px;
+	color: #660000;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.banners {
+	background-image: url(images/bkg_texture_desktop.jpg);
+	float: right;
+	position: relative;
+	top: 107px;
+	height: 615px;
+	width: 880px;
+}
+
+main {
+	display: inline-block;
+	height: 522px;
+	width: 354px;
+	position: relative;
+	top: 55px;
+	left: 57px;
+	overflow: auto;
+}
+
+.banner {
+	overflow: hidden;
+}
+
+/* .desktop_mobile and .tablet are only used for photos.html page*/
+.desktop_mobile {
+	display: inline-block;
+	height: 523px;
+	width: 354px;
+	position: relative;
+	top: 54px;
+	left: 57px;
+}
+
+.tablet {
+		display: none;
+	}
+
+h1 {
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+main p {
+	margin: 5% 5% 5% 5%;
+	font-size: 1.1em;
+	line-height: 1.3em;
+}
+
+.img {
+	width: 353px;
+	height: 222px;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	top: 55px;
+	left: 115px;
+	background-image: url(images/tree_view_desktop_mobile.jpg);
+	background-repeat: no-repeat;
+}
+
+section {
+	width: 354px;
+	height: 221px;
+	position: relative;
+	left: 472px;
+	top: -171px;
+	overflow: auto;
+}
+
+h2 {
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+section ul li {
+	margin: 4% 3% 0 10%;
+	list-style: outside;
+	line-height: 1.1em;
+}
+
+
+/*Tablet View*/
+
+@media screen and (max-width: 768px) {
+	.wrapper {
+		width: 768px;
+		height: 1024px;
+		margin: 0 auto;
+		background-image: url(images/tablet_view.jpg);
+		background-repeat: no-repeat;
+	}
+	
+	nav {
+	top: 81px;
+	height: 943px;
+	width: 109px;
+	}
+
+	nav ul {
+	padding-top: 46px;
+	}
+
+	nav ul li {
+	margin-bottom: 72px;
+	}
+
+	nav ul li a {
+	font-size: large;
+	font-weight: 300;
+	}
+
+	nav ul li:nth-child(3), nav ul li:last-child {
+	margin-top: 82px;
+	}
+
+	.content {
+	display: inline-block;
+	position: absolute;
+	top: 81px;
+	height: 943px;
+	width: 659px;
+}
+	
+	.banners {
+	background-image: url(images/bkg_texture_tablet.jpg);
+	display: inline-block;
+	position: absolute;
+	top: 81px;
+	height: 850px;
+	width: 659px;
+}
+	
+	main {
+	height: 353px;
+	width: 522px;
+	top: 55px;
+	left: 67px;
+	color: #660000;
+	overflow: auto;
+	}
+	
+	.banner {
+		height: auto;
+	}
+	
+/* .tablet and .desktop_mobile are only used for photos.html page*/
+	.tablet {
+	display: inline-block;
+	height: 353px;
+	width: 524px;
+	position: relative;
+	top: 55px;
+	left: 66px;
+	color: #660000;
+	}
+	
+	.desktop_mobile {
+		display: none;
+	}
+	
+	.img {
+	width: 222px;
+	height: 353px;
+	top: 120px;
+	left: 67px;
+	background-image: url(images/tree_view_tablet.jpg);
+	background-repeat: no-repeat;
+	}
+	
+	section {
+	width: 223px;
+	height: 352px;
+	left: 365px;
+	top: -233px;
+	overflow: auto;
+	}
+	
+	section ul li {
+		margin-left: 14%;
+		line-height: 1.2em;
+	}
+	
+}
+
+
+/*Mobile View*/
+
+@media screen and (max-width: 400px) {
+	.wrapper {
+		width: 400px;
+		height: 1185px;
+		margin: 0 auto;
+		background-image: url(images/mobile_view.jpg);
+		background-repeat: no-repeat;
+	}
+	
+	header {
+		width: 400px;
+		height: 81px;
+		display: block;
+	}
+	
+	nav {
+		display: none;
+	}
+	
+	.content {
+		top: 81px;
+		width: 400px;
+		height: 1104px;
+	}	
+	
+	.banners {
+		background-image: url(images/bkg_texture_mobile.jpg);
+		top: 81px;
+		width: 400px;
+		height: 1075px;
+	}
+	
+	main {
+	height: 522px;
+	width: 354px;
+	top: 22px;
+	left: 23px;
+	color: #660000;
+	overflow: auto;
+	}
+	
+/* .desktop_mobile and .tablet are only used for photos.html page*/
+	.desktop_mobile {
+	display: inline-block;
+	height: 523px;
+	width: 354px;
+	position: relative;
+	top: 21px;
+	left: 23px;
+	color: #660000;
+	}
+	
+	.tablet {
+		display: none;
+	}
+	
+	.img {
+	width: 354px;
+	height: 223px;
+	top: 48px;
+	left: 24px;
+	background-image: url(images/tree_view_desktop_mobile.jpg);
+	background-repeat: no-repeat;
+	}
+	
+	section {
+	width: 354px;
+	height: 221px;
+	left: 23px;
+	top: 82px;
+	overflow: auto;
+	}
+	
+	section ul li {
+	margin-left: 10%;
+	}
+	
+	.photos_mobile {
+		top: 80px;
+	}
+	
+/* Dropdown Button */
+.dropbtn {
+	 /*  The value for background-color is not an error. This value sets the background-color to transparent; not really a color, of course. */
+	 background-color: #11ffee00;
+	 padding: 20px;
+    font-size: 16px;
+	 margin: 20px 0 0 14px;
+    border: none;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+	 background-image: url(images/hamburger_menu_mobile.gif);
+	 background-color: #660000;
+	 border-radius: 25px;
+	 margin: 20px 0 0 14px;
+	 outline: none;
+}
+
+/* The container needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+	 background-color: #f0ece1;
+    min-width: 70px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: #660000;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #660000; color: #f0ece1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+	
+}

@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Banner</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="enchalet.js"></script>
+	<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+	<script src="banner.js"></script>
+</head>
+
+<body onload="init();">
+	
+	<div class="wrapper">
+		
+		<header>
+			<div class="dropdown">
+  				<button onclick="mobileDropdownFunction()" class="dropbtn"></button>
+  				<div id="Dropdown" class="dropdown-content">
+    				<a href="index.html">Home</a>
+    				<a href="#">Banner</a>
+    				<a href="photos.html">Photos</a>
+    				<a href="contact.html">Contact</a>
+  				</div>
+			</div>
+		</header>
+		
+	  <nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">Banner</a></li>
+				<li><a href="photos.html">Photos</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		
+		<div class="banners">
+			<main class="banner">
+				<div id="animation_container" style="background-color:rgba(5, 0, 6, 1.00); width:160px; height:515px">
+					<canvas id="canvas" width="160" height="515" style="position: absolute; display: block; background-color:rgba(5, 0, 6, 1.00);"></canvas>
+					<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:160px; height:515px; position: absolute; left: 0px; top: 0px; display: block;">
+					</div>
+				</div>
+			</main>
+			
+<!--			<div class="img"></div>-->
+			
+<!--			<section class="banner_section">-->
+<!--				<h2>Retreats</h2>-->
+<!--				<ul>-->
+<!--					<li>March 17-18, 2018<br><strong>Achieving your Ideal Body</strong></li>-->
+<!--					<li>March 24-25, 2018<br><strong>Special Needs and Spirituality</strong></li>-->
+<!--					<li>April 7, 2018<br><strong>Learn to be the CEO of your own Body</strong></li>-->
+<!--				</ul>-->
+<!--			</section>-->
+		</div>
+	
+	</div>
+	
+</body>
+	
+</html>
