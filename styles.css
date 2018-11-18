@@ -267,7 +267,7 @@ section ul li {
 
 /*Mobile View*/
 
-@media screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
 	.wrapper {
 		width: 400px;
 		height: 1185px;
