@@ -9,7 +9,7 @@
 
 
 /* Desktop View */
-@media only screen and (min-width: 768px) {
+
 .wrapper {
 	width: 1024px;
 	height: 768px;
@@ -159,7 +159,7 @@ section ul li {
 	list-style: outside;
 	line-height: 1.1em;
 }
-}
+
 
 /*Tablet View*/
 
