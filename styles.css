@@ -163,7 +163,7 @@ section ul li {
 
 /*Tablet View*/
 
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 600px) {
 	.wrapper {
 		width: 768px;
 		height: 1024px;
