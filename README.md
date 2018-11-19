@@ -8,5 +8,3 @@ Using all the skills and technologies that I learned during the training, I buil
 The feel and look of the website was to stay as close as possible to the actual retreat house environment, attempting to give it the resemblance of the inside of an old, rustic log cabin. The Layout was to be simple and clean with a side nav made of logs. The contact info was to be displayed on a separate page, as well were each, the slideshow and the animation (a banner ad created with Adobe Animate). The link to the banner/page is only there for convenience sake. The ad could be placed on another site as a backlink.
 
 I really enjoyed working on this project and am looking forward to working on many more.
-
-(Unfortunately, I did not get to use GitHub for the creation process of this website. From here on, I will use it for all my future projects. It is such a helpful and awesome tool!)
